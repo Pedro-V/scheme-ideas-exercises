@@ -1,5 +1,9 @@
 (import (rnrs))
 
+;; Esse exercício não tá sendo aprovado no site do Exercism
+;; Porém, se você executar ele com o interpretador localmente, todos os testes passam
+
+
 (define (sortstr str) (list->string (sort char<? 
                                     (string->list 
                                     (string-downcase str)))))
