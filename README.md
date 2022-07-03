@@ -1,4 +1,4 @@
-# Soluções de exercícios em Scheme
+# Soluções de exercícios e outras ideias em Scheme
 
 Scheme é uma dialeto de LISP. Esse repositório serve pra registrar algumas soluções pra exercícios ou ideias básicas que eu vier a fazer usando Scheme.
 
