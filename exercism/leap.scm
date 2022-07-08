@@ -1,15 +1,6 @@
-(import (rnrs))
-
-(define (divisible? num den)
-        (integer? (/ num den)))
+(import (rnrs))]
 
 (define (leap-year? year)
-        (if (divisible? year 4)
-            (if (divisible? year 100)
-                (if (not (divisible? year 400))
-                    #f
-                    #t)
-                #t)
-            #f))
-                
-            
+        (if (= (mod year 100) 0)
+        (= (mod year 400) 0)
+        (= (mod year 4) 0)))
